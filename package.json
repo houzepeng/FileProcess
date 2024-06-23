@@ -1,0 +1,12 @@
+{
+  "name": "document-organizer",
+  "version": "1.0.0",
+  "description": "A document organizing application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^13.0.0"
+  }
+}
