@@ -48,7 +48,7 @@ ipcMain.handle('organize-files', async (event, options) => {
     if (stats.isFile()) {
       const ext = path.extname(file).toLowerCase().substring(1);
       if (fileTypes.includes(ext)) {
-        const size = stats.size / 1024; // Convert to KB
+        const size = stats.size / 1024; // Convert to KB 
         const creationTime = stats.birthtime;
 
         if (size >= minSize && size <= maxSize &&
